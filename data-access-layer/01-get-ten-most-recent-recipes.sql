@@ -16,3 +16,4 @@
 
 
 -- YOUR CODE HERE
+SELECT * FROM recipes ORDER BY created DESC LIMIT 10;

@@ -17,3 +17,4 @@
 
 
 -- YOUR CODE HERE
+SELECT * FROM recipes WHERE id in ($1);

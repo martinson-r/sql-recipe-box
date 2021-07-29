@@ -15,3 +15,6 @@
 
 
 -- YOUR CODE HERE
+DELETE FROM ingredients WHERE recipe_id in ($1);
+DELETE FROM instructions WHERE recipe_id in ($1);
+DELETE FROM recipes WHERE id in ($1);
